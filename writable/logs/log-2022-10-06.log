@@ -1,0 +1,1396 @@
+CRITICAL - 2022-10-06 06:49:38 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 06:56:46 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 06:58:16 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 06:58:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:09:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:12:50 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(61): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:13:03 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:13:36 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:13:44 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:13:53 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:13:59 --> Undefined property: stdClass::$id
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 85)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 07:14:00 --> Undefined property: stdClass::$id
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 85)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 07:14:06 --> Undefined property: stdClass::$id
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 85)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 07:14:15 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:14:22 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:14:29 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:16:51 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:21:49 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(61): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:23:48 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(61): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:23:59 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:24:13 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:29:21 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 07:29:23 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 07:29:35 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 07:29:45 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:34:07 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:36:19 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:37:28 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:37:35 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:39:20 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:41:41 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:43:16 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:47:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:47:44 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:56:40 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 07:59:41 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$password
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 55)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 07:59:42 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$password
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 55)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 07:59:54 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:00:07 --> Call to undefined function App\Controllers\getJSON()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 08:05:43 --> syntax error, unexpected token ";"
+#0 D:\xampp\htdocs\server-master\www\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\server-master\www\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 08:05:44 --> syntax error, unexpected token ";"
+#0 D:\xampp\htdocs\server-master\www\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\server-master\www\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 08:05:53 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:06:05 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:07:44 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #2 ($depth) must be of type int, string given, called in D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php on line 43
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(43): CodeIgniter\HTTP\IncomingRequest->getJSON(true, 'password', 'firstName', 'lastName')
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:07:45 --> CodeIgniter\HTTP\IncomingRequest::getJSON(): Argument #2 ($depth) must be of type int, string given, called in D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php on line 43
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(43): CodeIgniter\HTTP\IncomingRequest->getJSON(true, 'password', 'firstName', 'lastName')
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:07:55 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:12:56 --> Call to undefined function App\Controllers\uuid()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 08:13:01 --> Call to undefined function App\Controllers\uuid()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 08:13:26 --> Undefined property: stdClass::$id
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 47)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:14:01 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:14:10 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:16:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(48): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:19:01 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(48): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:19:48 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(48): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:20:12 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(48): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:20:36 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#4 D:\xampp\htdocs\server-master\www\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(55): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-06 08:20:58 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(48): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:23:40 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:24:02 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 08:24:09 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:35:51 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:41:13 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:41:37 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:43:07 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:44:15 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:44:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:46:01 --> Call to undefined method App\Models\UserModel::all
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(15): CodeIgniter\Model->__call('all', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:46:10 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(15): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:46:54 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:47:26 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(65): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:47:27 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(65): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:47:28 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(65): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:47:56 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:48:16 --> Call to undefined method App\Models\UserModel::findOne
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('findOne', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:48:37 --> Attempt to read property "password" on string
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 19)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:48:46 --> Call to undefined method App\Models\UserModel::findOne
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('findOne', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:48:57 --> Call to undefined method App\Models\UserModel::findOne
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('findOne', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 08:50:57 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 D:\xampp\htdocs\server-master\www\app\Filters\APIAuth.php(51): CodeIgniter\BaseModel->find(NULL)
+#5 D:\xampp\htdocs\server-master\www\system\Filters\Filters.php(181): App\Filters\APIAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('api/v1/members', 'before')
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:53:10 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 D:\xampp\htdocs\server-master\www\app\Filters\APIAuth.php(51): CodeIgniter\BaseModel->find(NULL)
+#5 D:\xampp\htdocs\server-master\www\system\Filters\Filters.php(181): App\Filters\APIAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('api/v1/members', 'before')
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:53:37 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 D:\xampp\htdocs\server-master\www\app\Filters\APIAuth.php(51): CodeIgniter\BaseModel->find(NULL)
+#5 D:\xampp\htdocs\server-master\www\system\Filters\Filters.php(181): App\Filters\APIAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('api/%7B%7Bver%7...', 'before')
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 08:54:37 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:00:34 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:01:18 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(63): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:01:24 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(63): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:01:26 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(63): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:01:36 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(63): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:01:40 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(63): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:02:59 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$email
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 60)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:04:26 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$email
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 60)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:04:32 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$email
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 60)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:04:37 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$id
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 85)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:04:41 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$id
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 85)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:04:53 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:05:40 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:06:01 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 D:\xampp\htdocs\server-master\www\app\Filters\APIAuth.php(51): CodeIgniter\BaseModel->find(NULL)
+#5 D:\xampp\htdocs\server-master\www\system\Filters\Filters.php(181): App\Filters\APIAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('api/v1/members', 'before')
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:06:04 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:06:11 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:24:26 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:24:50 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 09:31:40 --> Call to undefined method App\Controllers\UserController::post()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 09:31:42 --> Call to undefined method App\Controllers\UserController::post()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 09:31:46 --> Call to undefined method App\Controllers\UserController::post()
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 09:32:00 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:38:35 --> Undefined property: App\Controllers\UserController::$input
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 13)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:44:58 --> Undefined property: App\Controllers\UserController::$input
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 13)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:44:59 --> Undefined property: App\Controllers\UserController::$input
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 13)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 09:46:21 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:50:10 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:54:34 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:57:31 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 09:58:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:08:30 --> Undefined property: App\Controllers\UserController::$model
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 12)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 10:16:37 --> Too few arguments to function App\Controllers\UserController::register_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:16:52 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:18:38 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:18:39 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:18:39 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:18:40 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:18:40 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:18:40 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:18:40 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:19:57 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:19:58 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:19:58 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:19:59 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:19:59 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:20:22 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:21:59 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:22:00 --> Too few arguments to function App\Controllers\UserController::login_v1(), 0 passed in D:\xampp\htdocs\server-master\www\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 10:24:01 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(69): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:24:54 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(70): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:25:45 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(70): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:26:15 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(70): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:28:52 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(71): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:30:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(71): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:31:43 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(72): count(Object(App\Models\UserModel))
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 10:32:01 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(71): CodeIgniter\BaseModel->find()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 10:33:10 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(71): CodeIgniter\Model->__call('get', Array)
+#4 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-06 10:33:22 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(71): CodeIgniter\Model->__call('get', Array)
+#4 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-06 11:48:58 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(17): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 11:49:22 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(20): CodeIgniter\Model->__call('get', Array)
+#4 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-06 11:49:45 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(71): CodeIgniter\Model->__call('get', Array)
+#4 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-06 11:50:03 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(60): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->register_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 11:50:06 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 11:51:37 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:38 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:39 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:39 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:39 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:39 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:40 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:51:40 --> Call to undefined method App\Models\UserModel::get_where
+#0 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\Model->__call('get_where', Array)
+#1 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#2 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-06 11:52:46 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-06 11:52:59 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\server-master\www\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\server-master\www\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\server-master\www\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\server-master\www\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\server-master\www\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(936): App\Controllers\UserController->login_v1()
+#6 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\server-master\www\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\server-master\www\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
